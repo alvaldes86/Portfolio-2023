@@ -1,0 +1,61 @@
+section{
+  margin: 81px 0px;
+  
+}
+.mainWrapper{
+  display: flex;
+    flex-direction: column;
+    margin: 0px 40px;
+}
+.mainWrapper p{
+  color: #818181; 
+  letter-spacing: .05em;
+  line-height: 1.5em;
+}
+.mainWrapper p span{
+  color: #111;
+  font-weight: bold;
+}
+
+/*========== media query tablets potrait=========*/
+@media only screen and (min-width: 600px){
+  .mainWrapper{
+    display: flex;
+    flex-direction: row;
+    
+  }
+.mainWrapper img{
+  width: 320px;
+  height: 320px;
+  margin: 85px 40px;
+}
+.mainWrapper p{
+  margin: 130px 68px;
+}
+  
+  
+
+  
+}
+/*========== media query tablets landspace=========*/
+@media only screen and (min-width: 768px){
+  
+    section{
+      height: 580px;
+    }
+  }
+ 
+/*========== media query desktop=========*/
+@media only screen and (min-width: 900px){
+  
+    
+  
+}
+
+/*========== media query ultra wide desktop=========*/
+@media only screen and (min-width: 1920px){
+  
+    
+ 
+
+}

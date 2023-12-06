@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kire's sweets</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./special_style.css">
+    
+    </head>
+<body>
+    <nav>
+        <a href="./our_story.html"><img src="./logos/logo_kire.png"></a>
+        
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="./home.html">Home</a>
+            <a href="./menu.html">Menu</a>
+            <a href="./special_index.html">Today's Special</a>
+            <a href="./our_story.html">Our Story</a>
+            
+        </div>
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <div class="large_nav">
+            <a href="./home.html">Home</a>
+            <a href="./menu.html">Menu</a>
+            <a href="./special_index.html">Today's Special</a>
+            <a href="./our_story.html">Our Story</a>
+    </div> 
+    </nav>
+
+
+    <div class="main mainContainer">
+
+        <h1 class="surprise">Surprise me please</h1>
+        <p class="todaySpecial">Today <span>Chef Bavette</span> brings us an amazing and delicious <span>chandelier
+        glazed cake</span>. Enjoy it!</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/xH55l99m74A"
+             title="YouTube video player" frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+             allowfullscreen></iframe>
+    
+        </div>
+    
+        <div class="card-container">
+            <div class="card">
+                <h1>Do you want more?</h1>
+                    
+                    <p><span>Send us</span> your email for more <span>recipes</span> like this one</p>
+                <div class="form-container">
+                    <form id="myForm " action=”mailto:contact@yourdomain.com” method=”POST” enctype=”multipart/form-data”
+                        name=”EmailForm”>
+    
+    
+                    <label for="name">Name</label>
+                        <br>
+                    <input name=”name” id="contact-name" type=”text” minlength="2" maxlength="19" size=”19″ placeholder="Jhon Smith" required="required"><br><br>
+    
+                    <label for="email">Email</label>
+                        <br>
+                    <input name=”email” id="contact-email" required placeholder="jhon@smith.com"><br><br>
+    
+                    <button id="submit" class="submit" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      
+
+    
+    <footer>
+        
+        <div class="follow">
+            <h3>Follow us</h3>
+        </div>
+        
+        <div class="images">
+            <a href="#"><img src="./logos/whatsapp.png"></a>
+            <a href="#"><img src="./logos/facebook.png"></a>
+            <a href="#"><img src="./logos/youtube.png"></a>
+            <a href="#"><img src="./logos/instagram.png"></a>
+        </div>
+
+        </div class="copy-div">
+            <p class="copyright"> &copy; Copyright All rights reserved. </p>
+        </div>
+    
+    
+</footer>
+    <script src="./special_script.js" defer></script>
+</body>
+</html>
