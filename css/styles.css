@@ -10953,7 +10953,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/hearderBackground/ux-store-jJT2r2n7lYA-unsplash.jpg") ;
+  background-image: url("../assets/img/hearderBackground/board\ ideab.jpg") ;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10966,6 +10966,7 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
+  margin-right: -300px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
