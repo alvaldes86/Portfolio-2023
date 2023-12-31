@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --navbar-color: #21252966;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -3751,7 +3752,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
   --bs-navbar-toggler-border-radius: 0.375rem;
-  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-focus-width: 1px;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   position: relative;
   display: flex;
@@ -10891,7 +10892,7 @@ p {
 #mainNav {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: #212529;
+  background-color: var(--navbar-color);
 }
 #mainNav .navbar-toggler {
   padding: 0.5rem;
@@ -10937,9 +10938,9 @@ p {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #212529;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: var(--navbar-color);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11084,6 +11085,13 @@ header.masthead .masthead-heading {
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+ul{
+  height: 100%;
+}
+/* li:hover{
+  background-color: var(--li-hover-color);
+  box-shadow: 0px 6px 0px #cca000;
+} */
 
 .timeline {
   position: relative;
