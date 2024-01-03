@@ -105,6 +105,11 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+
+.navbar-nav .nav-item:hover {
+  background-color: #333; /* Change this to the desired darker color */
+}
 .nav-button{
   background-color: rgba(0, 0, 0, 0.568);
   width: 100%;
@@ -11088,10 +11093,7 @@ header.masthead .masthead-heading {
 ul{
   height: 100%;
 }
-/* li:hover{
-  background-color: var(--li-hover-color);
-  box-shadow: 0px 6px 0px #cca000;
-} */
+
 
 .timeline {
   position: relative;
